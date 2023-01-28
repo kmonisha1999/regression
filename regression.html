@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program using string methods</title>
+</head>
+<body>
+<script>
+   
+
+    //remove special character in emailid
+    var email=prompt("Enter email id")
+	var print=email.match(/[a-z 0-9]/gi)
+	console.log(print)
+	
+	//remove special character in link
+	var link="www.gogle.com"
+	var print1=link.match(/[A-Z 0-9]/gi)
+	console.log(print1)
+	
+	//print @ index
+	var find=prompt("Enter Email id")
+	var find1=find.search("@")
+	console.log(find1)
+	
+	//print value before @
+	var search="monisha291099@gmail.com"
+	var search1=search.substr(0,13)
+	console.log(search1)
+	
+	 var input="The quick brown fox jumps over the lazy dog"
+	var output=input.replace(prompt("change word"),prompt("replace word"))	
+	console.log(output)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+</script>
+</body>
+</html>
